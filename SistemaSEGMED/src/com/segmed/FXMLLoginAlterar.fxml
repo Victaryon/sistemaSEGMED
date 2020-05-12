@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.segmed.FXMLLoginAlterarController">
+   <children>
+      <TextField fx:id="txtLoginUsuario" layoutX="127.0" layoutY="73.0" />
+      <PasswordField fx:id="txtLoginSenha" layoutX="127.0" layoutY="115.0" />
+      <Text layoutX="84.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:" AnchorPane.rightAnchor="275.0" />
+      <Text layoutX="88.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" AnchorPane.rightAnchor="275.0" />
+      <Text layoutX="129.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alterar Senha" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="79.0" layoutY="230.0" mnemonicParsing="false" onAction="#btnAterarConfirmar" prefHeight="40.0" prefWidth="90.0" text="Confirmar" AnchorPane.leftAnchor="80.0" />
+      <Button layoutX="231.0" layoutY="230.0" mnemonicParsing="false" onAction="#btnAlterarCancelar" prefHeight="40.0" prefWidth="90.0" text="Cancelar" AnchorPane.rightAnchor="80.0" />
+      <PasswordField fx:id="txtLoginNovaSenha" layoutX="127.0" layoutY="158.0" />
+      <Text layoutX="60.0" layoutY="175.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nova Senha:" AnchorPane.rightAnchor="275.0" />
+   </children>
+</AnchorPane>
